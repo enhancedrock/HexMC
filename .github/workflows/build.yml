@@ -12,7 +12,7 @@ jobs:
         with:
           submodules: 'true'
 
-      - name: Download Dependencys
+      - name: Download Dependencies
         run: |
           sudo apt install git p7zip make
 
